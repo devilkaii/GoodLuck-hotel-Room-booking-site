@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GOODLUCK HOTEL </title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custome css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="display()">
+
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>Good</span>Luck</a>
+        <nav class="navbar">
+             <a href="#services" onclick="display3()">home</a>
+             <a href="#packages" onclick="display2()">places</a>
+     <!---             <a href="#services"onclick="display3()">services</a>   -->
+             <a href="#gallery" onclick="display4()">gallery</a>
+             <a href="#review" onclick="display5()">review</a>
+             <a href="#contact" onclick="display6()">contact</a>
+             <a href="#book" onclick="display7()">book</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" id="email_id" placeholder="Enter your email">
+         <input type="password" class="box" placeholder="Password">
+         <a href="#"><input type="submit" value="login now"  class="btn"></a>
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember me</label>
+         <p>forgrt password? <a href="#">click here</a></p>
+         <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section starts -->
+<br>
+
+<br>
+<br>
+
+<section class="home" id="home">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="content">
+        <h3>welcome to A global icon of luxury</h3>
+        <p>dicover new places with us, luxury awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="img/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+    <br>
+<br>
+<br>
+    <h1 class="heading">
+        <span>a</span>
+        <span>b</span>
+        <span>o</span>
+        <span>u</span>
+        <span>t</span>
+        <span>u</span>
+        <span>s</span>
+        
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>services</h3>
+                <p>
+                    24-Hour room service
+                    Free wireless internet access
+                    Complimentary use of hotel bicycle
+                    Laundry service
+                    Tour & excursions
+                    24 Hour concierge</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p> Use our hotel menu templates to provide your guest with a full suite of room service options. Easily create a single brand look for every meal. All updates to items and prices can be made quickly online. It's the ultimate in control and convenience for your staff.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>YOUR HEALTH AND SAFETY ARE OUR ABSOLUTE PRIORITY
+                    We have introduced intensified hygiene & prevention measures to ensure your safety. The ALLSAFE label verified by Clifton represents our new elevated cleanliness protocols and standards and provides assurance that these standards have been met in our hotels.
+                </p>
+                
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Continental food has a subtle flavor of spices. Some of the popular continental foods are French toast, Hash Browns, etc.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>fastest delivery</h3>
+                <p>Decide what you want to eat. One of the biggest advantages of getting food delivered to your hotel is that you can get just about anything you're in the mood.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>events</h3>
+                <p>This includes a list of beverages to be served during the event such as coffee, tea, soda, or alcohol.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- services section ends -->
+
+
+
+
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+    <br>
+
+
+    <section class="packages" id="places">
+    <h1 class="heading">
+
+        <span>t</span>
+        <span>o</span>
+        <span>p</span>
+        <span class="space"></span>
+        <span>p</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+        
+
+        
+    </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/p-1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                <p>Mumbai, the city where dreams are made and fulfilled! </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+              
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-2.jpg" alt="tokyo ">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Tokyo, a man made wonder is also there and holidays would be incomplete without visiting.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-3.jpg" alt="Hawaii">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> london </h3>
+                <p> London is famous for its status as one of the world's greatest cosmopolitan cities.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="#hodellist" onclick="look()"  class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-4.jpg" alt="paris">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris is one of the most beautiful cities in the world. It is known worldwide for Eiffel tower.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        
+
+        
+    </div>
+
+</section>
+
+
+    <section class="packages" id="coastal">
+    <h1 class="heading">
+
+        <span>c</span>
+        <span>o</span>
+        <span>a</span>
+        <span>s</span>
+        <span>t</span>
+        <span>a</span>
+        <span>l</span>
+        <span>s</span>
+        
+        
+
+        
+    </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="img/c-1.jpg" alt="goa">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> goa </h3>
+                <p>Book your Perfect Place to Stay in Goa now. Quick, Easy Booking. Great Rates. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/c-2.jpg" alt="Pondicherry">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Pondicherry
+                </h3>
+                <p> Quiet beaches stretch north and south from town, good for swimming and sunrise strolls.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/c-3.jpg" alt="Kanyakumari">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Kanyakumari </h3>
+                <p>Kanyakumari is popular because it is the only places on earth, where you can see the Sun Rise and Sun Set from the ocean.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="#hodellist" onclick="look()"  class="btn">look</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-4.jpg" alt="kerala">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> kerala </h3>
+                <p>Kerala is well-known for its mesmerizing backwaters, ecotourism initiatives, scenic beauty, amazing beaches, and mouthwatering cuisine.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="#hodellist" onclick="look()" class="btn">look</a>
+            </div>
+        </div>
+
+        
+
+        
+    </div>
+    
+    </section>
+
+
+    <!-- hostel list starts-->
+
+    <section class="packages" id="hotellist">
+        <br>
+        <h1 class="heading">
+    
+            <span>h</span>
+            <span>o</span>
+            <span>t</span>
+            <span>e</span>
+            <span>l</span>
+            <span class="space"></span>
+            <span>l</span>
+            <span>i</span>
+            <span>s</span>
+            <span>t</span>
+            
+    
+            
+        </h1>
+    
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="img/h-1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hotel 1 </h3>
+                    <p > hotel details </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> र8000.00 <span>र10000.00</span></div>
+                    <p style="color: green;">* Rooms Availble</p>
+                    <a href="#bookroom" onclick="book()" class="btn">book now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="img/h-2.jpg" alt=" ">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hotel 2 </h3>
+                    <p>  hotel details.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> र20000 .00 <span>र25000.00</span></div>
+                    <p style="color: red;">* Rooms not Availble</p>
+
+                    <a href="#bookroom"  onclick="book()" class="btn">book now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="img/h-3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hotel-3</h3>
+                    <p> hotel details.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> र23000.00 <span>र27000.00</span></div>
+                    <p style="color: red;">* Rooms not Availble</p>
+
+                    <a href="#bookroom"  onclick="book()"  class="btn">book now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="img/h-4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hotel-4 </h3>
+                    <p> hotel details.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> र45000.00 <span>र55000.00</span></div>
+                    <p style="color: green;">* Rooms Availble</p>
+
+                    <a href="#bookroom"  onclick="book()" class="btn">book now</a>
+                </div>
+            </div>
+    
+            
+        </div>
+    
+    
+    </section>
+
+
+    <!--hotel list ends-->
+
+
+    <section class="book" id="bookroom">
+        <br>
+    
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+    
+        <div class="row">
+            <div class="img">
+             <!---   <img src="img/book-img.svg" alt=""> -->
+            </div>
+    
+            <form action="">
+                  
+                  <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" onclick="nof()" value="book now">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="book" id="nof">
+
+
+        <br>
+    
+        <h1 class="heading" style="font-size: 5rem;">
+            Booked Successfully!!!!
+        </h1>
+
+
+
+    </section>
+    
+
+</section>
+
+
+<!-- packages section ends -->
+
+
+
+
+
+
+
+
+
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <br>
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="img/g-1.jpg" alt="">
+        <div class="content">
+            <h3>Oberoi Mumbai</h3>
+    
+            <a href="https://www.oberoihotels.com/hotels-in-delhi/gallery/" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-2.jpg" alt="">
+        <div class="content">
+            <h3>Sheraton Grand Bengaluru </h3>
+            
+            <a href="https://www.marriott.com/en-us/hotels/blrsw-sheraton-grand-bengaluru-whitefield-hotel-and-convention-center/photos/" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-3.jpg" alt="">
+        <div class="content">
+            <h3>The Saneer Boutique Hotel</h3>
+            
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-4.jpg" alt="">
+        <div class="content">
+            <h3>Jawahar Circle</h3>
+            
+            <a href="https://www.dreamstime.com/photos-images/jawahar-circle.html" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-5.jpg" alt="">
+        <div class="content">
+            <h3>Jaipur Marriott Hotel</h3>
+            
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-6.jpg" alt="">
+        <div class="content">
+            <h3>Trident Hotel</h3>
+            
+            <a href="https://www.tridenthotels.com/gallery" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-7.jpg" alt="">
+        <div class="content">
+            <h3>Gallery Hotel</h3>
+            
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-8.jpg" alt="">
+        <div class="content">
+            <h3>oasia hotel</h3>
+            
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-9.jpg" alt="">
+        <div class="content">
+            <h3>Gallery Hotel</h3>
+            
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section start -->
+
+<section class="review" id="review">
+    <br>
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic 1.jpeg" alt="">
+                    <h3>Rathnam</h3>
+                    <p>This is a newly built property hence everything is in very good condition. The location is amazing with near Tiger Point and the views are amazing. The food is home cooked and is really high quality. The bathroom is huge with a bathtub and the room has a big balcony with great views. Will highly recommend this place. There is no mobile network in this location however the wifi works pretty well with good consistent speed.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic 2.jpeg" alt="">
+                    <h3>Dinseh</h3>
+                    <p>no electricity in on room and the apartment had drainage problem it stinked staff serives were approximately 1-2 hours delay we got ourselves check in at 4 as rooms were not ready, hotel staff was not at all cooperative it was a worst experience in short.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic 3.jpeg" alt="">
+                    <h3>Selvam</h3>
+                    <p>I like traditional food and I enjoyed the food and the staff was very helping and very kind hearted amd the room was very nice and well maintained If you are coming to visit Kashmir or deciding to visit Kashmir must take a room it’s best.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic 4.jpeg" alt="">
+                    <h3>Bala Sundar</h3>
+                    <p>Few things are missing: There is no refrigerator/mini bar. Some trees outside the balcony block the view of the valley. The property lacks a pool which should be in this price point. Lack of non veg food and alcohol might also be a disappointment for some.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+
+<section class="contact" id="contact">
+    <br>
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img src="img/contacts.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send message">
+        </form>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+
+
+<section class="book" id="book">
+    <br>
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+         <!---   <img src="img/book-img.svg" alt=""> -->
+        </div>
+
+        <form action="">
+              <div class="inputBox">
+                  <h3>where to</h3>
+                  <input type="text" placeholder="place name">
+              </div>
+              <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" onclick="nof()" value="book now">
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Founded in 2022 in india, GoodLuck.com has grown from a small Dutch startup to one of the world’s leading digital travel companies.
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">USA</a>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">philippines</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
+
+<script>
+    function display() {
+        document.getElementById("home").style.display = "block";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+
+        
+}
+function display1() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+        document.getElementById("head").style.display = "none";
+}
+function display2() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "block";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+        document.getElementById("hotellist").style.display = "none";
+        document.getElementById("bookroom").style.display ="none";
+        document.getElementById("coastal").style.display="block";
+        document.getElementById("places").style.display="block";
+        document.getElementById("nof").style.display="none";
+}
+function display3() {
+        document.getElementById("home").style.display = "block";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "block";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+}
+function display4() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "block";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+}
+function display5() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "block";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "none";
+}
+function display6() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "block";
+        document.getElementById("book").style.display = "none";
+}
+function display7() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("packages").style.display = "none";
+        document.getElementById("services").style.display = "none";
+        document.getElementById("gallery").style.display = "none";
+        document.getElementById("review").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        document.getElementById("book").style.display = "block";
+}
+function look(){
+    document.getElementById("hotellist").style.display ="block";
+    document.getElementById("coastal").style.display ="none";
+    document.getElementById("places").style.display ="none";
+}
+function book(){
+    document.getElementById("bookroom").style.display="block";
+    document.getElementById("hotellist").style.display ="none";
+    document.getElementById("coastal").style.display ="none";
+    document.getElementById("places").style.display ="none";
+}
+function nof(){
+    document.getElementById("bookroom").style.display="none";
+    document.getElementById("hotellist").style.display ="none";
+    document.getElementById("coastal").style.display ="none";
+    document.getElementById("places").style.display ="none";
+    document.getElementById("nof").style.display="block";
+    document.getElementById("packages").style.display="block";
+    document.getElementById("book").style.display="none";
+
+}
+
+</script>
+</body>
+</html>
